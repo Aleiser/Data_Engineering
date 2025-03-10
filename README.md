@@ -1,0 +1,8 @@
+Add files via upload
+The assignment is completed in 3 parts.
+First part : Getting the data ready by optimizing and cleaning it properly. The functions saved in this file are kept into udf.ipynb file which has all the User-Defined_Functions that is ready to use to clean by just calling the function . Since there are images and lots of description , having a different file with only code would be better so I kept the functions under this one. The cleaned dataset is exported into a csv to be used in the second part.
+Second part : The CSV with clean data is accessed from this file.. This part contains the three way split and finding best model for the assignment. 
+Third part : The UDF file is accessed to clean the data in a single line in from the third file . Then the best model that we saved is used to predict the price for the Live Dataset.
+
+- best_airbnb_model.pkl contains the model that was generated from the training data which was later to be used for the live dataset.
+- label encoders are the encoders that can be used to view the original details of the categorical columns.
